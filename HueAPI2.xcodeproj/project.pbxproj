@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F971CA0C2A162CEC00B19045 /* HueAPI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971CA0B2A162CEC00B19045 /* HueAPI2App.swift */; };
+		F971CA0E2A162CEC00B19045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971CA0D2A162CEC00B19045 /* ContentView.swift */; };
+		F971CA102A162CEF00B19045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F971CA0F2A162CEF00B19045 /* Assets.xcassets */; };
+		F971CA132A162CEF00B19045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F971CA122A162CEF00B19045 /* Preview Assets.xcassets */; };
+		F971CA1B2A16399200B19045 /* HueAPIv2+URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971CA1A2A16399200B19045 /* HueAPIv2+URLSession.swift */; };
+		F971CA1D2A163B5A00B19045 /* philips-hue-cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = F971CA1C2A163B5A00B19045 /* philips-hue-cert.pem */; };
+		F971CA1F2A163C3600B19045 /* HueAPIv2+URLSession2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971CA1E2A163C3600B19045 /* HueAPIv2+URLSession2.swift */; };
+		F9A441DD2C431366003723F5 /* HueAPI+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A441DC2C431366003723F5 /* HueAPI+Helper.swift */; };
+		F9A441DF2C4328AB003723F5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F9A441DE2C4328AB003723F5 /* .gitignore */; };
+		F9A441E12C4328C2003723F5 /* GitIgnore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A441E02C4328C2003723F5 /* GitIgnore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F971CA082A162CEC00B19045 /* HueAPI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueAPI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F971CA0B2A162CEC00B19045 /* HueAPI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueAPI2App.swift; sourceTree = "<group>"; };
+		F971CA0D2A162CEC00B19045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F971CA0F2A162CEF00B19045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F971CA122A162CEF00B19045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F971CA142A162CEF00B19045 /* HueAPI2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HueAPI2.entitlements; sourceTree = "<group>"; };
+		F971CA1A2A16399200B19045 /* HueAPIv2+URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HueAPIv2+URLSession.swift"; sourceTree = "<group>"; };
+		F971CA1C2A163B5A00B19045 /* philips-hue-cert.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = "philips-hue-cert.pem"; sourceTree = "<group>"; };
+		F971CA1E2A163C3600B19045 /* HueAPIv2+URLSession2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HueAPIv2+URLSession2.swift"; sourceTree = "<group>"; };
+		F9A441DC2C431366003723F5 /* HueAPI+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HueAPI+Helper.swift"; sourceTree = "<group>"; };
+		F9A441DE2C4328AB003723F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F9A441E02C4328C2003723F5 /* GitIgnore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitIgnore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F971CA052A162CEC00B19045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F971C9FF2A162CEC00B19045 = {
+			isa = PBXGroup;
+			children = (
+				F9A441DE2C4328AB003723F5 /* .gitignore */,
+				F9A441E02C4328C2003723F5 /* GitIgnore.swift */,
+				F971CA0A2A162CEC00B19045 /* HueAPI2 */,
+				F971CA092A162CEC00B19045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F971CA092A162CEC00B19045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F971CA082A162CEC00B19045 /* HueAPI2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F971CA0A2A162CEC00B19045 /* HueAPI2 */ = {
+			isa = PBXGroup;
+			children = (
+				F971CA0B2A162CEC00B19045 /* HueAPI2App.swift */,
+				F971CA1C2A163B5A00B19045 /* philips-hue-cert.pem */,
+				F971CA0D2A162CEC00B19045 /* ContentView.swift */,
+				F9A441DC2C431366003723F5 /* HueAPI+Helper.swift */,
+				F971CA1A2A16399200B19045 /* HueAPIv2+URLSession.swift */,
+				F971CA1E2A163C3600B19045 /* HueAPIv2+URLSession2.swift */,
+				F971CA0F2A162CEF00B19045 /* Assets.xcassets */,
+				F971CA142A162CEF00B19045 /* HueAPI2.entitlements */,
+				F971CA112A162CEF00B19045 /* Preview Content */,
+			);
+			path = HueAPI2;
+			sourceTree = "<group>";
+		};
+		F971CA112A162CEF00B19045 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F971CA122A162CEF00B19045 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F971CA072A162CEC00B19045 /* HueAPI2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F971CA172A162CEF00B19045 /* Build configuration list for PBXNativeTarget "HueAPI2" */;
+			buildPhases = (
+				F971CA042A162CEC00B19045 /* Sources */,
+				F971CA052A162CEC00B19045 /* Frameworks */,
+				F971CA062A162CEC00B19045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueAPI2;
+			productName = HueAPI2;
+			productReference = F971CA082A162CEC00B19045 /* HueAPI2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F971CA002A162CEC00B19045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F971CA072A162CEC00B19045 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F971CA032A162CEC00B19045 /* Build configuration list for PBXProject "HueAPI2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F971C9FF2A162CEC00B19045;
+			productRefGroup = F971CA092A162CEC00B19045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F971CA072A162CEC00B19045 /* HueAPI2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F971CA062A162CEC00B19045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A441DF2C4328AB003723F5 /* .gitignore in Resources */,
+				F971CA132A162CEF00B19045 /* Preview Assets.xcassets in Resources */,
+				F971CA102A162CEF00B19045 /* Assets.xcassets in Resources */,
+				F971CA1D2A163B5A00B19045 /* philips-hue-cert.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F971CA042A162CEC00B19045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F971CA0E2A162CEC00B19045 /* ContentView.swift in Sources */,
+				F9A441E12C4328C2003723F5 /* GitIgnore.swift in Sources */,
+				F971CA0C2A162CEC00B19045 /* HueAPI2App.swift in Sources */,
+				F971CA1F2A163C3600B19045 /* HueAPIv2+URLSession2.swift in Sources */,
+				F971CA1B2A16399200B19045 /* HueAPIv2+URLSession.swift in Sources */,
+				F9A441DD2C431366003723F5 /* HueAPI+Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F971CA152A162CEF00B19045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F971CA162A162CEF00B19045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F971CA182A162CEF00B19045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HueAPI2/HueAPI2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HueAPI2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.amaider.HueAPI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F971CA192A162CEF00B19045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HueAPI2/HueAPI2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HueAPI2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.amaider.HueAPI2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F971CA032A162CEC00B19045 /* Build configuration list for PBXProject "HueAPI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F971CA152A162CEF00B19045 /* Debug */,
+				F971CA162A162CEF00B19045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F971CA172A162CEF00B19045 /* Build configuration list for PBXNativeTarget "HueAPI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F971CA182A162CEF00B19045 /* Debug */,
+				F971CA192A162CEF00B19045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F971CA002A162CEC00B19045 /* Project object */;
+}
